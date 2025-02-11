@@ -402,3 +402,65 @@ body.dark .contact-form textarea {
         max-width: 90%;
     }
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    /* Stack Navigation for Mobile */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Adjust Main Content Padding */
+    main {
+        padding: 20px;
+    }
+
+    /* Ensure Boxes Fit Small Screens */
+    .box {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    /* Profile Image Resizing */
+    .profile-img {
+        width: 120px;
+    }
+
+    /* Make Forms and Contact Sections Mobile-Friendly */
+    .contact-card, .contact-form {
+        max-width: 95%;
+        padding: 20px;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 14px;
+    }
+
+    /* Adjust Button Sizing */
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    /* Ensure Hobby & Project Cards Stack Correctly */
+    .project-card, .hobby-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Scale Project Images */
+    .project-img {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    /* Reduce Footer Padding for Smaller Screens */
+    footer {
+        padding: 10px;
+    }
+}
